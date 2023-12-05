@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+	
+	ErrorDocument 404 http://localhost/BlogEstructurado/error.php
+
+</IfModule>
