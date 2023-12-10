@@ -17,11 +17,11 @@ if (isset($_POST)) {
     }
     
     if (empty($descripcion)) {
-        $errores["descripcion"] = "La descripci�n no es valida";
+        $errores["descripcion"] = "La descripción no es valida";
     }
     
     if (empty($categoria) && !is_numeric($categoria)) {
-        $errores["categoria"] = "La categor�a no es valida";
+        $errores["categoria"] = "La categoría no es valida";
     }
     
     if (count($errores) == 0) {
