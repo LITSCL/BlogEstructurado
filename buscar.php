@@ -10,7 +10,8 @@ if (!isset($_POST["busqueda"])) { //Si el usuario coloca un ID que no existe en 
 <!doctype html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="assets/css/styles.css"/>
 	<script type="text/javascript" src="vendor/jquery-3.5.0/jquery-3.5.0.min.js"></script>
